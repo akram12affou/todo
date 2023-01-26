@@ -1,0 +1,6 @@
+$blackclor: rgb(180, 214, 27);
+@mixin button($color , $padding,$font) {
+    background-color: $color;
+    padding: $padding;
+    font-size: $font; 
+}

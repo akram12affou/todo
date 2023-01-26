@@ -4,10 +4,16 @@
 }
 
 body {
-  background: rgb(194, 142, 142);
+  background-color: rgb(180, 214, 27);
   display: flex;
   justify-content: center;
   margin-top: 10vh;
   height: 90vh;
   width: 100vw;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  padding: 1em;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

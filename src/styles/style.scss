@@ -1,12 +1,16 @@
+@import "./Variables/variables.scss";
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background: rgb(194, 142, 142);
+    background-color: $blackclor;
     display: flex;
     justify-content: center;
     margin-top: 10vh;
     height: 90vh;
     width: 100vw;
+}
+button{
+    @include button(rgb(255, 0, 0),1em,1rem);
 }
